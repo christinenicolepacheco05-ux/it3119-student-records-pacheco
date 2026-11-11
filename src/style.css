@@ -1,0 +1,47 @@
+body { 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+  background: #f3f6fa; 
+  color: #17293b; 
+}
+main { 
+  max-width: 860px; 
+  margin: auto; 
+  padding: 24px; 
+}
+form, section { 
+  background: white; 
+  padding: 18px; 
+  border-radius: 8px; 
+  margin: 14px 0; 
+}
+label { 
+  display: block; 
+  margin: 12px 0; 
+}
+input, select { 
+  display: block; 
+  box-sizing: border-box; 
+  width: 100%; 
+  padding: 10px; 
+  margin-top: 5px; 
+}
+button { 
+  margin: 6px 8px 6px 0; 
+  padding: 10px 14px; 
+  cursor: pointer; 
+}
+li { 
+  margin: 16px 0; 
+  overflow-wrap: anywhere; 
+}
+span { 
+  display: block; 
+}
+[role="status"] { 
+  min-height: 1.4em; 
+  font-weight: bold; 
+}
+[hidden] { 
+  display: none !important; 
+}
